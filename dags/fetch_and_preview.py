@@ -1,5 +1,4 @@
 from datetime import datetime, timedelta
-
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
@@ -49,7 +48,7 @@ def preview_data(**kwargs):
 
 default_args = {
     'owner': 'vanessandersson.io',
-    'start_date': datetime(2024, 1, 25),
+    'start_date': datetime(2024, 8, 24),
     'catchup': False
 }
 
