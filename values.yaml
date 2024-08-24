@@ -17,7 +17,3 @@ logs:
     enabled: true  # Enables persistent storage for logs
     size: 1Gi  # Adjust size as needed
     storageClassName: "standard"  # Change based on your Kubernetes storage class
-
-  remoteLogging: false  # Set to true if using remote log storage like S3 or GCS
-  remoteBaseLogFolder: ""  # Specify your S3 or GCS bucket path if remoteLogging is true
-  remoteLogConnId: ""  # Airflow connection ID for remote log storage
