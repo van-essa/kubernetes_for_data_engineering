@@ -25,7 +25,7 @@ In this project, I followed the tutorial video to:
 - **Kubernetes Enablement**: Enabled Kubernetes from Docker Desktop settings.
 
 **Image Reference:**
-![Getting YAML File](path/to/getting_yaml_file.png)
+![Getting YAML File](media/getting_yaml_file.png)
 
 ### 2. Deploying Kubernetes Dashboard
 
@@ -33,7 +33,7 @@ In this project, I followed the tutorial video to:
 - **Applying Recommended YAML**: Downloaded and applied the recommended YAML file for setting up the dashboard.
 
 **Image Reference:**
-![Kubernetes Dashboard](path/to/kubernetes_dashboard_airflow.png)
+![Kubernetes Dashboard](media/kubernetes_dashboard_airflow.png)
 
 ### 3. Running Apache Airflow with Helm Charts
 
@@ -41,7 +41,7 @@ In this project, I followed the tutorial video to:
 - **DAG Deployment**: Placed the DAG in the appropriate directory and ensured it appeared in the Airflow UI.
 
 **Image Reference:**
-![DAG in Airflow](path/to/dag_in_airflow.png)
+![DAG in Airflow](media/dag_in_airflow.png)
 
 ### 4. Accessing the Cluster and Dashboard
 
@@ -49,7 +49,7 @@ In this project, I followed the tutorial video to:
 - **Kubernetes Dashboard**: Managed resources via the Kubernetes Dashboard interface.
 
 **Image Reference:**
-![Cluster Activity](path/to/cluster_activity_airflow.png)
+![Cluster Activity](media/cluster_activity_airflow.png)
 
 ## Bugs and Issues
 
@@ -67,7 +67,7 @@ The `hello.py` DAG was not visible in the Airflow UI despite being correctly pla
 - Checked scheduler logs and DAG directory in the Airflow pod.
 
 **Image Reference:**
-![Hello World Success](path/to/hello_world_succes.png)
+![Hello World Success](media/hello_world_succes.png)
 
 ### 2. Port Binding Issue When Accessing Airflow UI
 
@@ -79,7 +79,7 @@ An error occurred when trying to access the Airflow UI due to a port binding iss
 - Forwarded the port again to access the Airflow UI.
 
 **Image Reference:**
-![Run Proxy to Make Link Work Again](path/to/run_proxy_to_make_link_work_again.png)
+![Run Proxy to Make Link Work Again](media/run_proxy_to_make_link_work_again.png)
 
 ### 3. Persistent Issues with DAG Syncing
 
@@ -146,7 +146,7 @@ Below are some general troubleshooting commands and solutions for common issues 
   ```
 
 **Image Reference:**
-![kubectl Cluster Info](path/to/cubectl_cluster_info.png)
+![kubectl Cluster Info](media/cubectl_cluster_info.png)
 
 ## Credits
 
