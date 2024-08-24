@@ -11,4 +11,4 @@ dags:
     depth: 1
     maxFailures: 0
     subPath: "dags"
-    mountPath: /opt/airflow/dags/repo/dags
+    mountPath: /opt/airflow/dags
