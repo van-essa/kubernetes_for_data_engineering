@@ -4,10 +4,10 @@ metadata:
   name: airflow-logs-pv
 spec:
   capacity:
-    storage: 1Gi  # Adjust this size based on your needs
+    storage: 1Gi  # Ensure this matches the request in your PVC
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   storageClassName: standard  # This should match the storage class used by your PVC
   hostPath:
-    path: "/mnt/data/airflow-logs"  # Adjust this path based on your node's file system
+    path: "/mnt/data/airflow-logs"  # Adjust this to a suitable path on your nodes
